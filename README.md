@@ -10,30 +10,36 @@ The program is supposed to be a simple command line utility. It takes one or man
 
 ## Acceptance Criteria
 *Scenario 1:* No argument is given
+
 When I call the program and with no arguments given
 Then it prints out "There are no commandline arguments passed!"
 
 *Scenario 2:* 1 argument is given matching name
+
 When I call the program with a string argument
 And the argument matches a name of a person in the file
 Then it prints out the account details (See example 1)
 
 *Scenario 3:* 1 argument is given matching address
+
 When I call the program with a string argument
 And the argument matches an address of a person in the file
 Then it prints out the account details (See example 2)
 
 *Scenario 4:* 1 argument is matching multiple records
+
 When I call the pgoramm with a string argument
 And the argument matches multiple person and/or addresses
 Then it prints out all found records (See example 3)
 
 *Scenario 5:* 1 argument is given with no matching address or name
+
 When I call the program with a string argument
 And the argument does not match any name or address in the file
 Then it prints out "Not details found for "{argument}"" (See example 3)
 
 *Scenario 4:* 2 or more arguments are given matching name or address
+
 When i call the program with multiple arguments
 Then it prints out responses as for individual responses
 
