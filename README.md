@@ -31,7 +31,7 @@ Then it prints out the account details (See example 2)
 
 **Scenario 4:** 1 argument is matching multiple records
 ```
-When I call the pgoramm with a string argument
+When I call the program with a string argument
 And the argument matches multiple person and/or addresses
 Then it prints out all found records (See example 3)
 ```
@@ -63,7 +63,7 @@ Adrs: WARANDE 27, 2404 HR  ALPHEN A/D RIJN
 ### Example 2
 
 ```
-Query: WARANDE
+Query: COENDER
 Code: 322810802255613369902089011000F
 Name: F.F.H.M. HOOGSTEDER
 Adrs: COENDERSTRAAT 40, 2613 SN  DELFT
