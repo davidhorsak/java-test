@@ -40,10 +40,10 @@ Then it prints out all found records (See example 3)
 ```
 When I call the program with a string argument
 And the argument does not match any name or address in the file
-Then it prints out "Not details found for "{argument}"" (See example 3)
+Then it prints out "Not details found for "{argument}""
 ```
 
-**Scenario 4:** 2 or more arguments are given matching name or address
+**Scenario 6:** 2 or more arguments are given matching name or address
 ```
 When i call the program with multiple arguments
 Then it prints out responses as for individual responses
